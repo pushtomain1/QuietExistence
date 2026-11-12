@@ -1,0 +1,14 @@
+/QuietExistence.app/
+
+# Xcode build artifacts
+DerivedData/
+build/
+*.xcarchive
+*.dSYM/
+
+# Swift Package Manager
+.build/
+.swiftpm/
+
+# Xcode
+DerivedData/

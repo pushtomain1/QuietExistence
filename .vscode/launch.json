@@ -1,0 +1,24 @@
+{
+    "configurations": [
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:ai companion}",
+            "name": "Debug QuietExistence",
+            "target": "QuietExistence",
+            "configuration": "debug",
+            "preLaunchTask": "swift: Build Debug QuietExistence"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:ai companion}",
+            "name": "Release QuietExistence",
+            "target": "QuietExistence",
+            "configuration": "release",
+            "preLaunchTask": "swift: Build Release QuietExistence"
+        }
+    ]
+}
